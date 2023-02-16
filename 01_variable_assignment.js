@@ -1,7 +1,8 @@
 console.log("*******************Step 1 **********************");
 console.log("***Before Initialization***");
-var myFullName="Ranjitsinh Shivaji Gavali";
-console.log("My Full Name:",myFullName);
+var myFullName;
+console.log(myFullName);
+
 
 console.log("***After initialization***");
 MyFullName=" Ranjitsinh Gavali";
