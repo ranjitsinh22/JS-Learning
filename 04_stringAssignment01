@@ -1,22 +1,16 @@
-console.log("*******step 1*********");
+console.log("=============step 1==========");
 function stringBasic()
 {
     console.log("My Dream Company is:Tata Consultancy Services");
-}
-stringBasic(); 
 
-console.log("*******step 2*********");
+console.log("====================step 2=====================");
 console.log("****step 2.1***");
 var hobby1="Reading"
 var hobby2="Skecthing"
 var hobby3="Trekking"
-function myHobby()
-{
-    console.log("My Hobbies are:Reading,trekking,cooking");
-}
-myHobby(); 
+console.log("My Hobbies are:Reading,trekking,cooking");
 
-console.log("*****step2.2******");
+console.log("===================step2.2=====================");
 console.log("total number of character into Hobby1")
 var hobby1=hobby1.length;
 console.log(hobby1);
@@ -29,6 +23,9 @@ console.log("total number of character into Hobby3")
 var hobby3=hobby3.length;
 console.log(hobby3);
 
+}
+stringBasic(); 
+
 function myHobbies(value1,value2,value3)
 {
     var sum=value1+value2+value3;
@@ -37,3 +34,4 @@ function myHobbies(value1,value2,value3)
 console.log("sum of total number of character availble in hobby1,hobby2,hobby3")
 var result=myHobbies(7,9,8);
 console.log(result);
+
