@@ -28,8 +28,7 @@ console.log(`1)`);
 function profession()
 {
     console.log("Given String is:I am Angular Developer");
-}
-profession();
+
 
 console.log(`2)`);
 var profession="I am Angular Developer"
@@ -44,3 +43,6 @@ console.log(` String Lenght divided by total number of word: ${result} `);
 
 var result=22*4;
 console.log(` String Lenght Multiply by total number of word: ${result} `);
+
+}
+profession();
