@@ -1,6 +1,6 @@
 console.log("**********Swapping Variables ************");
 console.log("****Before Swapping Variables*****");
-var sweety="Sweety";      //put value of num2 in num1
+var sweety="Sweety";      //put value of cutie into sweety
 var cutie="Cutie";
 console.log(sweety,cutie);
 

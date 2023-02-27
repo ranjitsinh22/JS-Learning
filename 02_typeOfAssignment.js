@@ -8,8 +8,6 @@ var bankName="SBI bank";
 console.log("My Bank Name:SBI");
 console.log("typeof Bank Name is:" ,typeof bankName);
 
-
-
 console.log("*******************Step 2 **********************");
 console.log("****Declare and Initialize is On Same Line****");
 var graduationMark=90;
