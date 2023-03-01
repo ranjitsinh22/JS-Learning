@@ -94,4 +94,28 @@ function swapVariables(value1, value2) {
 
   var swapResult2 =  swapVariables(name1, name2);
   console.log(swapResult2);
+  console.log(`====================================================================`);
+
+//function with no arg and no return
+function myName(){
+  console.log("My Name is:Ranjit");
+}
+myName();
+
+
+  //function with arg and no return
   
+  function personalDetails(name){
+    console.log("My Name is:",name);
+  }
+  personalDetails("Ranjit");
+
+  console.log(`=============================`);
+  //function with arg and return
+function myDetails(age){
+  console.log("My Age is:",age);
+var result= typeof age;
+return result;
+}
+var displayResult=myDetails(24);
+console.log(displayResult);

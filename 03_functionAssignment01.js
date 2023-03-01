@@ -1,19 +1,20 @@
 console.log("*******step1*******");
-//function with no argument
+//function with no argument no return
 function myFavourite()
 {
     console.log("function with no argument");
     console.log("My favourite Car: Mustang GT");
 }
-myFavourite("My favourite Car: Mustang GT");
+myFavourite();
 
 console.log("********Step 2*********");
+// function  with argument and no return
 var firstName="Ranjitsinh"
 var lastName="Gavali"
 var collegeName="AGC Pune"
 function personalDetails(firstName,lastName,collegeName)
 {
-console.log("First Name:Ranjitsinh,Last Name:Gavali,College Name:AGC Pune");
+console.log(`First Name:firstName,Last Name:lastName,College Name:collegeName`);
 }
 personalDetails();
 
