@@ -1,0 +1,67 @@
+var string="    Hey You are donig good , keep it up   ";
+
+ function stringHandsOn()
+    {
+       console.log("  Q.1)  Hey You sre donig good,keep it up   ");
+
+    }
+  
+ stringHandsOn();
+console.log(`===============================================`);
+var stringLength=string.length;
+console.log("Q.2)Lenght of the string", stringLength);
+
+console.log(`===============================================`);
+console.log("Q.3)to remove extra spaces*****");
+var string="    Hey You are donig good,keep it up   ";
+var stringAfterTrim = string.trim();
+console.log("Removing extra start and end spaces using trim(): ",stringAfterTrim);
+
+var string="    Hey You sre doing good,keep it up   ";
+var stringLenght=string.length;
+console.log("Before Removing extra start and end spaces using trim() length is: ", string.length);
+
+
+var stringAfterTrim = string.trim();
+console.log("After Removing extra start and end spaces using trim() lenght is: ", stringAfterTrim.length);
+
+console.log(`===============================================`);
+var count=string.length-stringAfterTrim.length;
+console.log("Q.4)total extra spaces removed from string:",count);
+
+console.log(`===============================================`);
+console.log("******Find first and Last character****");
+var stringAfterTrim="Hey You are donig good keep it up";
+var charAtFirstIndex=stringAfterTrim.charAt();
+console.log("Q.5)First character is:",charAtFirstIndex);
+
+var stringAfterTrim="Hey You are donig good keep it up";
+var charAtLastIndex=stringAfterTrim.charAt(stringAfterTrim.length-1);
+console.log("last character is:",charAtLastIndex);
+
+console.log(`===============================================`);
+console.log("******total number of words after trim*******");
+var stringAfterTrim= stringAfterTrim.split(" ");
+console.log("Q.6)Total words: ", stringAfterTrim.length);
+
+console.log(`===============================================`);
+var indexOfGood=stringAfterTrim.indexOf("good");
+console.log("Q.7)index of good is:",indexOfGood);
+
+console.log(`===============================================`);
+console.log("Q.8)*****print substring starting from index 22 using substring() ******");
+var stringAfterTrim="Hey You are donig good keep it up";
+console.log(stringAfterTrim.substring(22));
+
+console.log("*******print substring starting from index 22 using slice()******");
+var stringAfterTrim="Hey You are donig good keep it up";
+console.log(stringAfterTrim.slice(22));
+
+console.log(`===============================================`);
+console.log("*******step 9******");
+var stringAfterTrim="Hey You are donig good keep it up";
+console.log("Q.9)Is string end with word up after step 3  or not: ", stringAfterTrim.includes("up"));
+
+console.log(`===============================================`);
+var stringAfterTrim="Hey You are donig good keep it up";
+console.log("Q.10)Is string start with word Hey after step 3 or not: ", stringAfterTrim.includes("Hey"));
